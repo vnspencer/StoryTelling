@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB21F8CF17445B0300FA7D52 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB21F8CE17445B0300FA7D52 /* UIView+Hierarchy.m */; };
+		DB21F8D017445B0300FA7D52 /* UIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB21F8CE17445B0300FA7D52 /* UIView+Hierarchy.m */; };
 		DB28D70D1742E1460071B5C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D70C1742E1460071B5C2 /* UIKit.framework */; };
 		DB28D70F1742E1460071B5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D70E1742E1460071B5C2 /* Foundation.framework */; };
 		DB28D7111742E1460071B5C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D7101742E1460071B5C2 /* CoreGraphics.framework */; };
@@ -24,6 +26,36 @@
 		DB28D7361742E1460071B5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D70E1742E1460071B5C2 /* Foundation.framework */; };
 		DB28D73E1742E1460071B5C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB28D73C1742E1460071B5C2 /* InfoPlist.strings */; };
 		DB28D7411742E1460071B5C2 /* StoryTellingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D7401742E1460071B5C2 /* StoryTellingTests.m */; };
+		DB28D74F1742E2390071B5C2 /* ScreenCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D74C1742E2390071B5C2 /* ScreenCaptureView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DB28D7501742E2390071B5C2 /* ScreenCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D74C1742E2390071B5C2 /* ScreenCaptureView.m */; };
+		DB28D7531742E4900071B5C2 /* WorkAreaController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D7521742E4900071B5C2 /* WorkAreaController.m */; };
+		DB28D7541742E4900071B5C2 /* WorkAreaController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D7521742E4900071B5C2 /* WorkAreaController.m */; };
+		DB28D7571742E86A0071B5C2 /* SlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D7561742E86A0071B5C2 /* SlideUpView.m */; };
+		DB28D7581742E86A0071B5C2 /* SlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D7561742E86A0071B5C2 /* SlideUpView.m */; };
+		DB28D75B1742E8840071B5C2 /* SlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D75A1742E8840071B5C2 /* SlideDownView.m */; };
+		DB28D75C1742E8840071B5C2 /* SlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D75A1742E8840071B5C2 /* SlideDownView.m */; };
+		DB28D75F1742E8950071B5C2 /* SlideLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D75E1742E8950071B5C2 /* SlideLeftView.m */; };
+		DB28D7601742E8950071B5C2 /* SlideLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D75E1742E8950071B5C2 /* SlideLeftView.m */; };
+		DB28D7661742E8BE0071B5C2 /* ThumbImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D7641742E8BE0071B5C2 /* ThumbImageView.m */; };
+		DB28D7681742F4B60071B5C2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D7671742F4B60071B5C2 /* AssetsLibrary.framework */; };
+		DB28D76A1742F4BD0071B5C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D7691742F4BD0071B5C2 /* AVFoundation.framework */; };
+		DB28D76C1742F4C50071B5C2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D76B1742F4C50071B5C2 /* CoreMedia.framework */; };
+		DB28D76E1742F4CE0071B5C2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D76D1742F4CE0071B5C2 /* CoreVideo.framework */; };
+		DB28D7701742F4D30071B5C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB28D76F1742F4D30071B5C2 /* QuartzCore.framework */; };
+		DB28D7711742F5F50071B5C2 /* ThumbImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB28D7641742E8BE0071B5C2 /* ThumbImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DBFA4AA6174D66B4001DFCDC /* RecordStop.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4AA5174D66B4001DFCDC /* RecordStop.png */; };
+		DBFA4AA7174D66B4001DFCDC /* RecordStop.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4AA5174D66B4001DFCDC /* RecordStop.png */; };
+		DBFA4AAD174D6718001DFCDC /* AddButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4AAB174D6718001DFCDC /* AddButton.png */; };
+		DBFA4AAE174D6758001DFCDC /* AddButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4AAB174D6718001DFCDC /* AddButton.png */; };
+		DBFA4AB1174D79F7001DFCDC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFA4AB0174D79F7001DFCDC /* MediaPlayer.framework */; };
+		DBFA4AB4174D7B07001DFCDC /* VideoPlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4AB2174D7B07001DFCDC /* VideoPlayButton.png */; };
+		DBFA4AB5174D7B31001DFCDC /* VideoPlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4AB2174D7B07001DFCDC /* VideoPlayButton.png */; };
+		DBFA4ABE174D7EA3001DFCDC /* StartRecording.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4ABD174D7EA3001DFCDC /* StartRecording.png */; };
+		DBFA4ABF174D7EA3001DFCDC /* StartRecording.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4ABD174D7EA3001DFCDC /* StartRecording.png */; };
+		DBFA4AC1174D7F1C001DFCDC /* StartRecordingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4AC0174D7F1C001DFCDC /* StartRecordingButton.png */; };
+		DBFA4AC2174D7F1C001DFCDC /* StartRecordingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBFA4AC0174D7F1C001DFCDC /* StartRecordingButton.png */; };
+		DBFA4AC5174D8206001DFCDC /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4AC4174D8206001DFCDC /* AudioRecorder.m */; };
+		DBFA4AC6174D8206001DFCDC /* AudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4AC4174D8206001DFCDC /* AudioRecorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +69,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB21F8CD17445B0300FA7D52 /* UIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hierarchy.h"; sourceTree = "<group>"; };
+		DB21F8CE17445B0300FA7D52 /* UIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hierarchy.m"; sourceTree = "<group>"; };
 		DB28D7081742E1460071B5C2 /* StoryTelling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryTelling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB28D70C1742E1460071B5C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB28D70E1742E1460071B5C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +94,31 @@
 		DB28D73D1742E1460071B5C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB28D73F1742E1460071B5C2 /* StoryTellingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryTellingTests.h; sourceTree = "<group>"; };
 		DB28D7401742E1460071B5C2 /* StoryTellingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryTellingTests.m; sourceTree = "<group>"; };
+		DB28D74B1742E2390071B5C2 /* ScreenCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenCaptureView.h; sourceTree = "<group>"; };
+		DB28D74C1742E2390071B5C2 /* ScreenCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenCaptureView.m; sourceTree = "<group>"; };
+		DB28D7511742E4900071B5C2 /* WorkAreaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkAreaController.h; sourceTree = "<group>"; };
+		DB28D7521742E4900071B5C2 /* WorkAreaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkAreaController.m; sourceTree = "<group>"; };
+		DB28D7551742E86A0071B5C2 /* SlideUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideUpView.h; sourceTree = "<group>"; };
+		DB28D7561742E86A0071B5C2 /* SlideUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideUpView.m; sourceTree = "<group>"; };
+		DB28D7591742E8840071B5C2 /* SlideDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideDownView.h; sourceTree = "<group>"; };
+		DB28D75A1742E8840071B5C2 /* SlideDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideDownView.m; sourceTree = "<group>"; };
+		DB28D75D1742E8950071B5C2 /* SlideLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideLeftView.h; sourceTree = "<group>"; };
+		DB28D75E1742E8950071B5C2 /* SlideLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideLeftView.m; sourceTree = "<group>"; };
+		DB28D7631742E8BE0071B5C2 /* ThumbImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbImageView.h; sourceTree = "<group>"; };
+		DB28D7641742E8BE0071B5C2 /* ThumbImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbImageView.m; sourceTree = "<group>"; };
+		DB28D7671742F4B60071B5C2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		DB28D7691742F4BD0071B5C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB28D76B1742F4C50071B5C2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DB28D76D1742F4CE0071B5C2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DB28D76F1742F4D30071B5C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DBFA4AA5174D66B4001DFCDC /* RecordStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordStop.png; sourceTree = "<group>"; };
+		DBFA4AAB174D6718001DFCDC /* AddButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddButton.png; sourceTree = "<group>"; };
+		DBFA4AB0174D79F7001DFCDC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DBFA4AB2174D7B07001DFCDC /* VideoPlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoPlayButton.png; sourceTree = "<group>"; };
+		DBFA4ABD174D7EA3001DFCDC /* StartRecording.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartRecording.png; sourceTree = "<group>"; };
+		DBFA4AC0174D7F1C001DFCDC /* StartRecordingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartRecordingButton.png; sourceTree = "<group>"; };
+		DBFA4AC3174D8206001DFCDC /* AudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRecorder.h; sourceTree = "<group>"; };
+		DBFA4AC4174D8206001DFCDC /* AudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRecorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +126,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBFA4AB1174D79F7001DFCDC /* MediaPlayer.framework in Frameworks */,
+				DB28D7701742F4D30071B5C2 /* QuartzCore.framework in Frameworks */,
+				DB28D76E1742F4CE0071B5C2 /* CoreVideo.framework in Frameworks */,
+				DB28D76C1742F4C50071B5C2 /* CoreMedia.framework in Frameworks */,
+				DB28D76A1742F4BD0071B5C2 /* AVFoundation.framework in Frameworks */,
+				DB28D7681742F4B60071B5C2 /* AssetsLibrary.framework in Frameworks */,
 				DB28D70D1742E1460071B5C2 /* UIKit.framework in Frameworks */,
 				DB28D70F1742E1460071B5C2 /* Foundation.framework in Frameworks */,
 				DB28D7111742E1460071B5C2 /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +151,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB21F8D117445B1700FA7D52 /* UIView_Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				DB21F8CD17445B0300FA7D52 /* UIView+Hierarchy.h */,
+				DB21F8CE17445B0300FA7D52 /* UIView+Hierarchy.m */,
+			);
+			name = UIView_Hierarchy;
+			sourceTree = "<group>";
+		};
 		DB28D6FD1742E1460071B5C2 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +182,12 @@
 		DB28D70B1742E1460071B5C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBFA4AB0174D79F7001DFCDC /* MediaPlayer.framework */,
+				DB28D76F1742F4D30071B5C2 /* QuartzCore.framework */,
+				DB28D76D1742F4CE0071B5C2 /* CoreVideo.framework */,
+				DB28D76B1742F4C50071B5C2 /* CoreMedia.framework */,
+				DB28D7691742F4BD0071B5C2 /* AVFoundation.framework */,
+				DB28D7671742F4B60071B5C2 /* AssetsLibrary.framework */,
 				DB28D70C1742E1460071B5C2 /* UIKit.framework */,
 				DB28D70E1742E1460071B5C2 /* Foundation.framework */,
 				DB28D7101742E1460071B5C2 /* CoreGraphics.framework */,
@@ -119,12 +199,27 @@
 		DB28D7121742E1460071B5C2 /* StoryTelling */ = {
 			isa = PBXGroup;
 			children = (
+				DB21F8D117445B1700FA7D52 /* UIView_Hierarchy */,
 				DB28D71B1742E1460071B5C2 /* AppDelegate.h */,
 				DB28D71C1742E1460071B5C2 /* AppDelegate.m */,
 				DB28D7241742E1460071B5C2 /* MainStoryboard_iPhone.storyboard */,
 				DB28D7271742E1460071B5C2 /* MainStoryboard_iPad.storyboard */,
 				DB28D72A1742E1460071B5C2 /* ViewController.h */,
 				DB28D72B1742E1460071B5C2 /* ViewController.m */,
+				DB28D7511742E4900071B5C2 /* WorkAreaController.h */,
+				DB28D7521742E4900071B5C2 /* WorkAreaController.m */,
+				DB28D7551742E86A0071B5C2 /* SlideUpView.h */,
+				DB28D7561742E86A0071B5C2 /* SlideUpView.m */,
+				DB28D7591742E8840071B5C2 /* SlideDownView.h */,
+				DB28D75A1742E8840071B5C2 /* SlideDownView.m */,
+				DB28D75D1742E8950071B5C2 /* SlideLeftView.h */,
+				DB28D75E1742E8950071B5C2 /* SlideLeftView.m */,
+				DB28D74B1742E2390071B5C2 /* ScreenCaptureView.h */,
+				DB28D74C1742E2390071B5C2 /* ScreenCaptureView.m */,
+				DBFA4AC3174D8206001DFCDC /* AudioRecorder.h */,
+				DBFA4AC4174D8206001DFCDC /* AudioRecorder.m */,
+				DB28D7631742E8BE0071B5C2 /* ThumbImageView.h */,
+				DB28D7641742E8BE0071B5C2 /* ThumbImageView.m */,
 				DB28D7131742E1460071B5C2 /* Supporting Files */,
 			);
 			path = StoryTelling;
@@ -140,6 +235,11 @@
 				DB28D71E1742E1460071B5C2 /* Default.png */,
 				DB28D7201742E1460071B5C2 /* Default@2x.png */,
 				DB28D7221742E1460071B5C2 /* Default-568h@2x.png */,
+				DBFA4AA5174D66B4001DFCDC /* RecordStop.png */,
+				DBFA4AAB174D6718001DFCDC /* AddButton.png */,
+				DBFA4AB2174D7B07001DFCDC /* VideoPlayButton.png */,
+				DBFA4ABD174D7EA3001DFCDC /* StartRecording.png */,
+				DBFA4AC0174D7F1C001DFCDC /* StartRecordingButton.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -234,12 +334,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBFA4AB5174D7B31001DFCDC /* VideoPlayButton.png in Resources */,
+				DBFA4AAE174D6758001DFCDC /* AddButton.png in Resources */,
 				DB28D7171742E1460071B5C2 /* InfoPlist.strings in Resources */,
 				DB28D71F1742E1460071B5C2 /* Default.png in Resources */,
 				DB28D7211742E1460071B5C2 /* Default@2x.png in Resources */,
 				DB28D7231742E1460071B5C2 /* Default-568h@2x.png in Resources */,
 				DB28D7261742E1460071B5C2 /* MainStoryboard_iPhone.storyboard in Resources */,
 				DB28D7291742E1460071B5C2 /* MainStoryboard_iPad.storyboard in Resources */,
+				DBFA4AA6174D66B4001DFCDC /* RecordStop.png in Resources */,
+				DBFA4ABE174D7EA3001DFCDC /* StartRecording.png in Resources */,
+				DBFA4AC1174D7F1C001DFCDC /* StartRecordingButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB28D73E1742E1460071B5C2 /* InfoPlist.strings in Resources */,
+				DBFA4AA7174D66B4001DFCDC /* RecordStop.png in Resources */,
+				DBFA4AAD174D6718001DFCDC /* AddButton.png in Resources */,
+				DBFA4AB4174D7B07001DFCDC /* VideoPlayButton.png in Resources */,
+				DBFA4ABF174D7EA3001DFCDC /* StartRecording.png in Resources */,
+				DBFA4AC2174D7F1C001DFCDC /* StartRecordingButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +384,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB28D7711742F5F50071B5C2 /* ThumbImageView.m in Sources */,
 				DB28D7191742E1460071B5C2 /* main.m in Sources */,
 				DB28D71D1742E1460071B5C2 /* AppDelegate.m in Sources */,
 				DB28D72C1742E1460071B5C2 /* ViewController.m in Sources */,
+				DB28D74F1742E2390071B5C2 /* ScreenCaptureView.m in Sources */,
+				DB28D7531742E4900071B5C2 /* WorkAreaController.m in Sources */,
+				DB28D7571742E86A0071B5C2 /* SlideUpView.m in Sources */,
+				DB28D75B1742E8840071B5C2 /* SlideDownView.m in Sources */,
+				DB28D75F1742E8950071B5C2 /* SlideLeftView.m in Sources */,
+				DB21F8CF17445B0300FA7D52 /* UIView+Hierarchy.m in Sources */,
+				DBFA4AC5174D8206001DFCDC /* AudioRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +403,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB28D7411742E1460071B5C2 /* StoryTellingTests.m in Sources */,
+				DB28D7501742E2390071B5C2 /* ScreenCaptureView.m in Sources */,
+				DB28D7541742E4900071B5C2 /* WorkAreaController.m in Sources */,
+				DB28D7581742E86A0071B5C2 /* SlideUpView.m in Sources */,
+				DB28D75C1742E8840071B5C2 /* SlideDownView.m in Sources */,
+				DB28D7601742E8950071B5C2 /* SlideLeftView.m in Sources */,
+				DB28D7661742E8BE0071B5C2 /* ThumbImageView.m in Sources */,
+				DB21F8D017445B0300FA7D52 /* UIView+Hierarchy.m in Sources */,
+				DBFA4AC6174D8206001DFCDC /* AudioRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +586,7 @@
 				DB28D7461742E1460071B5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB28D7471742E1460071B5C2 /* Build configuration list for PBXNativeTarget "StoryTellingTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +595,7 @@
 				DB28D7491742E1460071B5C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
